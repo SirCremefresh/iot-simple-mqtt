@@ -11,8 +11,5 @@
     "platforms": "*",
     "dependencies": {
         "PubSubClient": "^2.7"
-    },
-    "build": {
-        "flags": "DMQTT_MAX_PACKET_SIZE=256"
     }
 }
