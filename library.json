@@ -1,0 +1,12 @@
+{
+    "name": "iot-simple-mqtt",
+    "keywords": "",
+    "description": "a liberary for esp32 that makes mqtt easy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SirCremefresh/iot-simple-mqtt.git"
+    },
+    "version": "1.0",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
