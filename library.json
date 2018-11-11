@@ -8,5 +8,8 @@
     },
     "version": "1.0",
     "frameworks": "arduino",
-    "platforms": "*"
+    "platforms": "*",
+    "dependencies": {
+        "PubSubClient": "^2.7"
+    }
 }
