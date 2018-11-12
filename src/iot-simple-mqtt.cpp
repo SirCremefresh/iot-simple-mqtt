@@ -38,6 +38,12 @@ void bmw12::Mqtt::check()
     }
 }
 
-void bmw12::Mqtt::send(const char *topic, const char *message) {
+void bmw12::Mqtt::send(const char *topic, const char *message)
+{
     this->pubSubClient.publish(topic, message);
+}
+
+void bmw12::Mqtt::send(const char *topic, const String *message)
+{
+    this->send(topic, message->c_str());
 }
