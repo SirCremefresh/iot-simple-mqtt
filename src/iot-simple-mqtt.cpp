@@ -36,6 +36,7 @@ void bmw12::Mqtt::check()
             delay(5000);
         }
     }
+    pubSubClient.loop();
 }
 
 void bmw12::Mqtt::send(const char *topic, const char *message)
